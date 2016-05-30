@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SocialControls
 {
-    public partial class UserControl1: UserControl
+    public partial class UserInfoButton: UserControl
     {
-        public UserControl1()
+        public UserInfoButton()
         {
             InitializeComponent();
         }

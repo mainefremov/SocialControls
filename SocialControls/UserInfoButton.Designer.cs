@@ -1,6 +1,6 @@
 ﻿namespace SocialControls
 {
-    partial class UserControl1
+    partial class UserInfoButton
     {
         /// <summary>
         /// Обязательная переменная конструктора.
