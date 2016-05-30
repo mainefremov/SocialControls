@@ -28,8 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // UserInfoButton
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.MaximumSize = new System.Drawing.Size(1000, 158);
+            this.MinimumSize = new System.Drawing.Size(492, 158);
+            this.Name = "UserInfoButton";
+            this.Size = new System.Drawing.Size(492, 158);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
