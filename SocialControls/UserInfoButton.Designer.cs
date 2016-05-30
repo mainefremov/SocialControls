@@ -30,6 +30,7 @@
         {
             this.avatarPictureBox = new System.Windows.Forms.PictureBox();
             this.ageLabel = new System.Windows.Forms.Label();
+            this.fullNameLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.avatarPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,13 +52,27 @@
             this.ageLabel.BackColor = System.Drawing.Color.Transparent;
             this.ageLabel.Font = new System.Drawing.Font("Open Sans", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.ageLabel.Location = new System.Drawing.Point(4, 4);
+            this.ageLabel.Margin = new System.Windows.Forms.Padding(0);
             this.ageLabel.Name = "ageLabel";
             this.ageLabel.Size = new System.Drawing.Size(150, 27);
             this.ageLabel.TabIndex = 1;
             // 
+            // fullNameLabel
+            // 
+            this.fullNameLabel.Font = new System.Drawing.Font("Open Sans", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.fullNameLabel.Location = new System.Drawing.Point(158, 4);
+            this.fullNameLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.fullNameLabel.MaximumSize = new System.Drawing.Size(1000, 27);
+            this.fullNameLabel.MinimumSize = new System.Drawing.Size(10, 27);
+            this.fullNameLabel.Name = "fullNameLabel";
+            this.fullNameLabel.Size = new System.Drawing.Size(247, 27);
+            this.fullNameLabel.TabIndex = 2;
+            this.fullNameLabel.Text = "Светлана Гончарова";
+            // 
             // UserInfoButton
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.Controls.Add(this.fullNameLabel);
             this.Controls.Add(this.ageLabel);
             this.Controls.Add(this.avatarPictureBox);
             this.Font = new System.Drawing.Font("Open Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(204)));
@@ -74,5 +89,6 @@
 
         private System.Windows.Forms.PictureBox avatarPictureBox;
         private System.Windows.Forms.Label ageLabel;
+        private System.Windows.Forms.Label fullNameLabel;
     }
 }
