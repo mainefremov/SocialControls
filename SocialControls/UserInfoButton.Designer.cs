@@ -29,23 +29,38 @@
         private void InitializeComponent()
         {
             this.avatarPictureBox = new System.Windows.Forms.PictureBox();
+            this.ageLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.avatarPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // avatarPictureBox
             // 
+            this.avatarPictureBox.ErrorImage = global::SocialControls.Properties.Resources.camera_150;
+            this.avatarPictureBox.Image = global::SocialControls.Properties.Resources.camera_150;
+            this.avatarPictureBox.InitialImage = global::SocialControls.Properties.Resources.camera_150;
             this.avatarPictureBox.Location = new System.Drawing.Point(4, 4);
             this.avatarPictureBox.Margin = new System.Windows.Forms.Padding(0);
             this.avatarPictureBox.Name = "avatarPictureBox";
             this.avatarPictureBox.Size = new System.Drawing.Size(150, 150);
+            this.avatarPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.avatarPictureBox.TabIndex = 0;
             this.avatarPictureBox.TabStop = false;
             // 
+            // ageLabel
+            // 
+            this.ageLabel.BackColor = System.Drawing.Color.Transparent;
+            this.ageLabel.Font = new System.Drawing.Font("Open Sans", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.ageLabel.Location = new System.Drawing.Point(4, 4);
+            this.ageLabel.Name = "ageLabel";
+            this.ageLabel.Size = new System.Drawing.Size(150, 27);
+            this.ageLabel.TabIndex = 1;
+            // 
             // UserInfoButton
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.Controls.Add(this.ageLabel);
             this.Controls.Add(this.avatarPictureBox);
+            this.Font = new System.Drawing.Font("Open Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(204)));
             this.MaximumSize = new System.Drawing.Size(1000, 158);
             this.MinimumSize = new System.Drawing.Size(492, 158);
             this.Name = "UserInfoButton";
@@ -58,5 +73,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox avatarPictureBox;
+        private System.Windows.Forms.Label ageLabel;
     }
 }

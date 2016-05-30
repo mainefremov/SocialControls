@@ -15,6 +15,7 @@ namespace SocialControls
         public UserInfoButton()
         {
             InitializeComponent();
+            this.ageLabel.Parent = this.avatarPictureBox;
         }
     }
 }
