@@ -54,9 +54,12 @@
             this.ageLabel.Font = new System.Drawing.Font("Open Sans", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.ageLabel.Location = new System.Drawing.Point(4, 4);
             this.ageLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.ageLabel.MaximumSize = new System.Drawing.Size(150, 27);
+            this.ageLabel.MinimumSize = new System.Drawing.Size(150, 27);
             this.ageLabel.Name = "ageLabel";
             this.ageLabel.Size = new System.Drawing.Size(150, 27);
             this.ageLabel.TabIndex = 1;
+            this.ageLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // fullNameLabel
             // 
@@ -68,7 +71,7 @@
             this.fullNameLabel.MaximumSize = new System.Drawing.Size(1000, 27);
             this.fullNameLabel.MinimumSize = new System.Drawing.Size(0, 27);
             this.fullNameLabel.Name = "fullNameLabel";
-            this.fullNameLabel.Size = new System.Drawing.Size(529, 27);
+            this.fullNameLabel.Size = new System.Drawing.Size(191, 27);
             this.fullNameLabel.TabIndex = 2;
             this.fullNameLabel.Text = "Светлана Гончарова";
             // 
@@ -77,14 +80,15 @@
             this.onlineLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.onlineLabel.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.onlineLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(150)))), ((int)(((byte)(153)))));
-            this.onlineLabel.Location = new System.Drawing.Point(691, 12);
+            this.onlineLabel.Location = new System.Drawing.Point(353, 4);
             this.onlineLabel.Margin = new System.Windows.Forms.Padding(0, 0, 4, 0);
-            this.onlineLabel.MaximumSize = new System.Drawing.Size(180, 17);
-            this.onlineLabel.MinimumSize = new System.Drawing.Size(180, 17);
+            this.onlineLabel.MaximumSize = new System.Drawing.Size(200, 27);
+            this.onlineLabel.MinimumSize = new System.Drawing.Size(200, 27);
             this.onlineLabel.Name = "onlineLabel";
-            this.onlineLabel.Size = new System.Drawing.Size(180, 17);
+            this.onlineLabel.Padding = new System.Windows.Forms.Padding(0, 7, 0, 0);
+            this.onlineLabel.Size = new System.Drawing.Size(200, 27);
             this.onlineLabel.TabIndex = 3;
-            this.onlineLabel.Text = "заходила позавчера в 23:16";
+            this.onlineLabel.Text = "заходила 29 сентября в 23:16";
             this.onlineLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // UserInfoButton
@@ -98,7 +102,7 @@
             this.MaximumSize = new System.Drawing.Size(1000, 158);
             this.MinimumSize = new System.Drawing.Size(492, 158);
             this.Name = "UserInfoButton";
-            this.Size = new System.Drawing.Size(875, 158);
+            this.Size = new System.Drawing.Size(557, 158);
             ((System.ComponentModel.ISupportInitialize)(this.avatarPictureBox)).EndInit();
             this.ResumeLayout(false);
 
